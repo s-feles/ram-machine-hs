@@ -1,0 +1,17 @@
+     load  =20
+     store 3
+st:  read  4
+     load  4
+     add   =1
+     jzero dal
+     load  4
+     store ^3
+     load  3
+     add   =1
+     store 3
+     jump  st
+dal: read  2
+     load  2
+     add   =19
+     load  ^0
+     write 0
